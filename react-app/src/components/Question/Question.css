@@ -1,0 +1,68 @@
+/* Estilos para el contenedor de la pregunta */
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .error-message {
+    color: #f44336; /* Rojo para errores */
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .question.error {
+    border: 1px solid #f44336; /* Borde rojo para preguntas con errores */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .question h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para las opciones */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .plus-options,
+  .minus-options {
+    flex: 1;
+  }
+  
+  .plus-options h4,
+  .minus-options h4 {
+    font-size: 1rem;
+    color: #6200ea;
+    margin-bottom: 10px;
+  }
+  
+  .plus-options button,
+  .minus-options button {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plus-options button.selected,
+  .minus-options button.selected {
+    background-color: #6200ea;
+    color: white;
+    border-color: #6200ea;
+  }
+  
+  .plus-options button:hover,
+  .minus-options button:hover {
+    background-color: #d1c4e9;
+  }

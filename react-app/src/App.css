@@ -1,0 +1,27 @@
+/* Estilos para el contenedor principal de la aplicación */
+.App {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Estilos para el header */
+  .App-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .App-header h1 {
+    font-size: 2rem;
+    color: #6200ea;
+  }
+  
+  /* Estilos para el footer */
+  .App-footer {
+    text-align: center;
+    margin-top: 20px;
+  }

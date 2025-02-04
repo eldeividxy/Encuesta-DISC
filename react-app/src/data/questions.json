@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "text": "¿Cómo te describes a ti mismo en situaciones sociales?",
+      "options": [
+        { "id": 1, "text": "Extrovertido", "value": "square" },
+        { "id": 2, "text": "Analítico", "value": "z" },
+        { "id": 3, "text": "Amigable", "value": "triangle" },
+        { "id": 4, "text": "Reservado", "value": "circle" }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "¿Cómo manejas los conflictos?",
+      "options": [
+        { "id": 1, "text": "Directo", "value": "square" },
+        { "id": 2, "text": "Lógico", "value": "z" },
+        { "id": 3, "text": "Empático", "value": "triangle" },
+        { "id": 4, "text": "Evitativo", "value": "circle" }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "¿Qué cualidad valoras más en ti mismo?",
+      "options": [
+        { "id": 1, "text": "Determinación", "value": "square" },
+        { "id": 2, "text": "Precisión", "value": "z" },
+        { "id": 3, "text": "Compasión", "value": "triangle" },
+        { "id": 4, "text": "Paciencia", "value": "circle" }
+      ]
+    }
+    
+
+  ]
