@@ -1,34 +1,152 @@
 [
-    {
-      "id": 1,
-      "text": "¿Cómo te describes a ti mismo en situaciones sociales?",
-      "options": [
-        { "id": 1, "text": "Extrovertido", "value": "square" },
-        { "id": 2, "text": "Analítico", "value": "z" },
-        { "id": 3, "text": "Amigable", "value": "triangle" },
-        { "id": 4, "text": "Reservado", "value": "circle" }
-      ]
-    },
-    {
-      "id": 2,
-      "text": "¿Cómo manejas los conflictos?",
-      "options": [
-        { "id": 1, "text": "Directo", "value": "square" },
-        { "id": 2, "text": "Lógico", "value": "z" },
-        { "id": 3, "text": "Empático", "value": "triangle" },
-        { "id": 4, "text": "Evitativo", "value": "circle" }
-      ]
-    },
-    {
-      "id": 3,
-      "text": "¿Qué cualidad valoras más en ti mismo?",
-      "options": [
-        { "id": 1, "text": "Determinación", "value": "square" },
-        { "id": 2, "text": "Precisión", "value": "z" },
-        { "id": 3, "text": "Compasión", "value": "triangle" },
-        { "id": 4, "text": "Paciencia", "value": "circle" }
-      ]
-    }
-    
-
-  ]
+  {
+    "id": 1,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "entusiasta",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "audaz",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 3,
+        "text": "diplomático",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 4,
+        "text": "satisfecho",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "cauteloso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "decidido",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 3,
+        "text": "convincente",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "bondadoso",
+        "plusValue": "triangle",
+        "minusValue": "N"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "amigable",
+        "plusValue": "square",
+        "minusValue": "N"
+      },
+      {
+        "id": 2,
+        "text": "preciso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "franco",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "tranquilo",
+        "plusValue": "N",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "elocuente",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "controlado",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "convencional",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "decisivo",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "arriesgado",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "concienzudo",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "extrovertido",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "moderado",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  }
+]

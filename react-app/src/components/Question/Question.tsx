@@ -1,3 +1,4 @@
+// File: src/components/Question/Question.tsx
 import React, { useState } from 'react';
 import { Question, UserSelection, Shape } from '../../types/types';
 import './Question.css';
@@ -5,21 +6,33 @@ import './Question.css';
 interface QuestionProps {
   question: Question;
   onSelect: (selection: UserSelection) => void;
-  error?: string; // Prop para recibir el mensaje de error
+  error?: string;
 }
 
 const QuestionComponent: React.FC<QuestionProps> = ({ question, onSelect, error }) => {
-  const [plusSelected, setPlusSelected] = useState<Shape | null>(null);
-  const [minusSelected, setMinusSelected] = useState<Shape | null>(null);
+  const [plusSelectedId, setPlusSelectedId] = useState<number | null>(null);
+  const [minusSelectedId, setMinusSelectedId] = useState<number | null>(null);
 
-  const handlePlusSelect = (value: Shape) => {
-    setPlusSelected(value);
-    onSelect({ questionId: question.id, plus: value, minus: minusSelected ?? '' });
+  const handlePlusSelect = (optionId: number, value: Shape | "N") => {
+    if (value === "N") return; // Ignorar "N"
+    setPlusSelectedId(optionId);
+    onSelect({
+      questionId: question.id,
+      plus: value, // TypeScript ahora sabe que value es Shape
+      minus: "square" // Valor por defecto seguro
+    });
   };
+  
+ 
 
-  const handleMinusSelect = (value: Shape) => {
-    setMinusSelected(value);
-    onSelect({ questionId: question.id, plus: plusSelected ?? '', minus: value });
+  const handleMinusSelect = (optionId: number, value: Shape | "N") => {
+    if (value === "N") return; // Ignorar opciones con "N"
+    setMinusSelectedId(optionId);
+    onSelect({
+      questionId: question.id,
+      plus: question.options.find(opt => opt.id === plusSelectedId)?.plusValue as Shape,
+      minus: value,
+    });
   };
 
   return (
@@ -31,8 +44,8 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question, onSelect, error 
           {question.options.map((option) => (
             <button
               key={option.id}
-              onClick={() => handlePlusSelect(option.value as Shape)}
-              className={plusSelected === option.value ? 'selected' : ''}
+              onClick={() => handlePlusSelect(option.id, option.plusValue)}
+              className={plusSelectedId === option.id ? 'selected' : ''}
             >
               {option.text}
             </button>
@@ -43,8 +56,8 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question, onSelect, error 
           {question.options.map((option) => (
             <button
               key={option.id}
-              onClick={() => handleMinusSelect(option.value as Shape)}
-              className={minusSelected === option.value ? 'selected' : ''}
+              onClick={() => handleMinusSelect(option.id, option.minusValue)}
+              className={minusSelectedId === option.id ? 'selected' : ''}
             >
               {option.text}
             </button>

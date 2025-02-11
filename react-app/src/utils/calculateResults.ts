@@ -10,8 +10,9 @@ export const calculateResults = (selections: UserSelection[]) => {
   };
 
   selections.forEach((selection) => {
-    if (selection.plus) results[selection.plus] += 1;
-    if (selection.minus) results[selection.minus] -= 1;
+    // Filtrar "N" explícitamente
+    if (selection.plus !== "N") results[selection.plus] += 1;
+    if (selection.minus !== "N") results[selection.minus] -= 1;
   });
 
   return results;

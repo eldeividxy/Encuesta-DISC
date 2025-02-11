@@ -12,6 +12,9 @@ const Survey: React.FC = () => {
   const [isConfirmationModalOpen, setIsConfirmationModalOpen] = useState(false);
   const [showResults, setShowResults] = useState(false);
 
+  // Convertir datos a tipo Question[] una sola vez
+  const typedQuestionsData = questionsData as unknown as Question[];
+
   const handleSelect = (selection: UserSelection) => {
     const updatedSelections = userSelections.filter(
       (s) => s.questionId !== selection.questionId
@@ -37,12 +40,16 @@ const Survey: React.FC = () => {
 
   const handleSubmit = () => {
     if (Object.keys(errors).length > 0) {
-      alert('Por favor, corrige los errores antes de finalizar la encuesta.');
+      alert("Corrige los errores antes de finalizar.");
       return;
     }
 
-    if (userSelections.length !== questionsData.length) {
-      alert('Debes responder todas las preguntas antes de finalizar.');
+    const unanswered = typedQuestionsData.some(
+      (q: Question) => !userSelections.some((s) => s.questionId === q.id)
+    );
+
+    if (unanswered) {
+      alert("¡Responde todas las preguntas!");
       return;
     }
 
@@ -65,7 +72,7 @@ const Survey: React.FC = () => {
   return (
     <div className="survey">
       <h1>Encuesta DISC</h1>
-      {questionsData.map((question) => (
+      {typedQuestionsData.map((question: Question) => (
         <div key={question.id}>
           <QuestionComponent
             question={question}
