@@ -7,14 +7,20 @@ export interface Option {
 
 export interface UserSelection {
   questionId: number;
-  plus: Shape; // Solo valores Shape (excluyendo "N")
-  minus: Shape; // Solo valores Shape (excluyendo "N")
+  plusOptionId: number;  
+  minusOptionId: number; 
 }
 
 export interface Question {
   id: number;
   text: string;
   options: Option[];
+}
+
+export interface ResultsProps {
+  userSelections: UserSelection[];
+  questions: Question[]; 
+  onClose: () => void;
 }
 
 

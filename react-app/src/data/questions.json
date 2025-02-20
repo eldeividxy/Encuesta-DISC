@@ -148,5 +148,699 @@
         "minusValue": "triangle"
       }
     ]
+  },
+  {
+    "id": 6,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "gentil",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 2,
+        "text": "persuasivo",
+        "plusValue": "square",
+        "minusValue": "N"
+      },
+      {
+        "id": 3,
+        "text": "humilde",
+        "plusValue": "N",
+        "minusValue": "circle"
+      },
+      {
+        "id": 4,
+        "text": "original",
+        "plusValue": "N",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "expresivo",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "cuidadoso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "dominante",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "sensible",
+        "plusValue": "N",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "amable",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "precavido",
+        "plusValue": "circle",
+        "minusValue": "N"
+      },
+      {
+        "id": 3,
+        "text": "modesto",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "impaciente",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "discreto",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "agradable",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "encantador",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "insistente",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "valiente",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "inspira a los demás",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 3,
+        "text": "dócil",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "tímido",
+        "plusValue": "N",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "reservado",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "simpático",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "resuelto",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "alegre",
+        "plusValue": "square",
+        "minusValue": "square"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "estimulante",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "amable",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "perceptivo",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 4,
+        "text": "independiente",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "competitivo",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "considerado",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "jovial",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "privado",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "meticuloso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "obediente",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "ideas firmes",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "juguetón",
+        "plusValue": "square",
+        "minusValue": "square"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "amable",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "introspectivo",
+        "plusValue": "circle",
+        "minusValue": "N"
+      },
+      {
+        "id": 3,
+        "text": "obstinado",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "predecible",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "analítico",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "audaz",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 3,
+        "text": "leal",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "deleita a los demás",
+        "plusValue": "square",
+        "minusValue": "square"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "sociable",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "paciente",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "auto suficiente",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "certero",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "dispuesto",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 2,
+        "text": "impaciente",
+        "plusValue": "z",
+        "minusValue": "N"
+      },
+      {
+        "id": 3,
+        "text": "minucioso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 4,
+        "text": "despierto",
+        "plusValue": "square",
+        "minusValue": "square"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "enérgico",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "extrovertido",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 3,
+        "text": "amable",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "discerniente",
+        "plusValue": "N",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "seguro",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "compasivo",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "imparcial",
+        "plusValue": "N",
+        "minusValue": "circle"
+      },
+      {
+        "id": 4,
+        "text": "asertivo",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "disciplinado",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "generoso",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "animado",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "persistente",
+        "plusValue": "z",
+        "minusValue": "z"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "impulsivo",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "introvertido",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "enérgico",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "tolerante",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "sociable",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "refinado",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "vigoroso",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "benévolo",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "cautivador",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "contento",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "exigente",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "apegado a normas",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "argumentador",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "metódico",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "cooperativo",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 4,
+        "text": "desenvuelto",
+        "plusValue": "square",
+        "minusValue": "square"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "jovial",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 2,
+        "text": "preciso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 3,
+        "text": "directo",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 4,
+        "text": "ecuánime",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "inquieto",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 2,
+        "text": "amable",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      },
+      {
+        "id": 3,
+        "text": "elocuente",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "cuidadoso",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "text": "Elige una palabra que te describa MÁS (+) y MENOS (-)",
+    "options": [
+      {
+        "id": 1,
+        "text": "prudente",
+        "plusValue": "circle",
+        "minusValue": "circle"
+      },
+      {
+        "id": 2,
+        "text": "precursor",
+        "plusValue": "z",
+        "minusValue": "z"
+      },
+      {
+        "id": 3,
+        "text": "optimista",
+        "plusValue": "square",
+        "minusValue": "square"
+      },
+      {
+        "id": 4,
+        "text": "servicial",
+        "plusValue": "triangle",
+        "minusValue": "triangle"
+      }
+    ]
   }
 ]
+
+
+
+
