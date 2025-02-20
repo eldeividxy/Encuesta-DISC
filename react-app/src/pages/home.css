@@ -1,0 +1,10 @@
+.home {
+    background-color: #FF8E4E; /* Fondo principal */
+    min-height: 100vh;
+    padding: 2rem;
+  }
+  
+  .home button {
+    background-color: #44AFDD; /* Botón con color de respuestas */
+    font-weight: 800; /* ExtraBold */
+  }

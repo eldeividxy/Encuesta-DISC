@@ -11,6 +11,11 @@
 }
 
 .modal {
+  background-color: #64DCA0; /* Mismo que preguntas */
+  border: 3px solid #44AFDD; /* Borde color respuestas */
+}
+
+.modal {
   background-color: white;
   padding: 20px;
   border-radius: 10px;

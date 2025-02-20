@@ -5,6 +5,7 @@ import ConfirmationModal from '../components/ConfirmationModal/ConfirmationModal
 import Results from '../components/Result/Result';
 import questionsData from '../data/questions.json';
 import './Survey.css';
+import './Home.css'; 
 
 const Survey: React.FC = () => {
   const [userSelections, setUserSelections] = useState<UserSelection[]>([]);
@@ -24,35 +25,31 @@ const Survey: React.FC = () => {
   };
 
   const validateSelection = (selection: UserSelection) => {
-    const { questionId, plus, minus } = selection;
     const newErrors = { ...errors };
-
-    if (plus === minus) {
-      newErrors[questionId] = 'No puedes seleccionar la misma opción en "+" y "-".';
-    } else if (!plus || !minus) {
-      newErrors[questionId] = 'Debes seleccionar una opción en "+" y otra en "-".';
+    
+    if (selection.plusOptionId === selection.minusOptionId) {
+      newErrors[selection.questionId] = 'No puedes seleccionar la misma opción en ambos campos';
     } else {
-      delete newErrors[questionId];
+      delete newErrors[selection.questionId];
     }
-
+  
     setErrors(newErrors);
   };
-
+  
   const handleSubmit = () => {
-    if (Object.keys(errors).length > 0) {
-      alert("Corrige los errores antes de finalizar.");
-      return;
-    }
-
-    const unanswered = typedQuestionsData.some(
-      (q: Question) => !userSelections.some((s) => s.questionId === q.id)
+    const unanswered = typedQuestionsData.filter(question => 
+      !userSelections.some(s => 
+        s.questionId === question.id && 
+        s.plusOptionId !== -1 && 
+        s.minusOptionId !== -1
+      )
     );
-
-    if (unanswered) {
-      alert("¡Responde todas las preguntas!");
+  
+    if (unanswered.length > 0) {
+      alert(`Faltan ${unanswered.length} preguntas por responder`);
       return;
     }
-
+  
     setIsConfirmationModalOpen(true);
   };
 
@@ -93,10 +90,15 @@ const Survey: React.FC = () => {
       />
 
       {showResults && (
-        <Results userSelections={userSelections} onClose={handleCloseResults} />
+        <Results 
+        userSelections={userSelections} 
+        questions={typedQuestionsData}
+        onClose={handleCloseResults} 
+      />
       )}
     </div>
   );
 };
+
 
 export default Survey;

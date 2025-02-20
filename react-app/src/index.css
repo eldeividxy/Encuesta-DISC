@@ -29,6 +29,24 @@ body {
       width: 100%;
     }
   }
+
+  body {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif; /* Prioriza Open Sans */
+    color: #000; /* Texto negro */
+  }
+  
+  button {
+    font-family: inherit; /* Hereda la fuente principal */
+  }
+  
+  h1, h2, h3, h4 {
+    font-weight: 800; /* ExtraBold para títulos */
+  }
+  
+  p, span {
+    font-weight: 400; /* Regular para texto */
+  }
   
   /* Contenedor principal */
   #root {

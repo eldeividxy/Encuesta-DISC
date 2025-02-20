@@ -11,6 +11,17 @@
     font-size: 0.9rem;
     margin-top: 5px;
   }
+
+  .question {
+    background-color: #64DCA0; /* Fondo preguntas */
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+  }
+  
+  .error-message {
+    color: #d32f2f; /* Rojo para errores */
+  }
   
   .question.error {
     border: 1px solid #f44336; /* Borde rojo para preguntas con errores */

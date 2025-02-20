@@ -61,6 +61,60 @@ button {
   transition: background-color 0.3s ease;
 }
 
+.results {
+  background-color: #44AFDD; /* Fondo resultados */
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 15px;
+}
+
+.result-item {
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+}
+
 button:hover {
   background-color: #3700b3;
+}
+
+/* ------ src/components/Result/Result.css ------ */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.results-table th,
+.results-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #44AFDD;
+}
+
+.results-table th {
+  background-color: #44AFDD;
+  color: white;
+  font-weight: 800;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.shape-header {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 480px) {
+  .results-table {
+    font-size: 0.9rem;
+  }
+  
+  .results-table th,
+  .results-table td {
+    padding: 8px;
+  }
 }
